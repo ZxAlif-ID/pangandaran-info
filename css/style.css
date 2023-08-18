@@ -7227,6 +7227,7 @@ button.bg-dark:focus {
   transform: scale(1.1);
 }
 .img-hover-zoom:hover .img-hover-zoom-caption {
+  cursor: pointer;
   opacity: 1;
   transform: translateY(-100%);
 }

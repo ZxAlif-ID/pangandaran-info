@@ -161,9 +161,11 @@
     
 })(jQuery);
 
+//For Zoom-image
 $('.img-fluid').on('mouseenter', function() {
     $(this).addClass('zoom');
 });
 $('.img-fluid').on('mouseleave', function() {
     $(this).removeClass('zoom');
 });
+
